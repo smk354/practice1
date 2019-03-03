@@ -1,0 +1,51 @@
+<ion-content>
+  <ion-item class="onoff">
+    <ion-icon name="onoff" float-right (click)="move_to_onoff()"></ion-icon>
+  </ion-item>
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <ion-avatar (click)="move_to_myPhoto()">
+            <img src="../../assets/imgs/A.jpg">
+          </ion-avatar>
+        </ion-col>
+        <ion-col col-8>
+          <ion-row row-8>
+            <ion-note>망망낭낭</ion-note>
+          </ion-row>
+          <ion-row row-2>
+            <ion-note>서울특별시 동작구</ion-note>
+          </ion-row>
+          <ion-row row-2 style="height : 100%">
+            <button ion-button full class="fix_profile">
+              프로필 수정
+            </button>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+
+  <ion-list class="list1">
+    <ion-item>
+      <ion-icon name="stats" color="secondary"></ion-icon>프로필 티어<ion-note>A</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="heart" color="danger"></ion-icon>선호 설정<ion-note>B</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="hand"></ion-icon>지인 차단
+    </ion-item>
+  </ion-list>
+
+  <ion-list class="list2">
+    <ion-item>앱 소개</ion-item>
+    <ion-item>고객 센터</ion-item>
+  </ion-list>
+
+  <ion-list class="list3">
+    <ion-item>만든 사람들</ion-item>
+    <ion-item>오픈 소스 코드</ion-item>
+  </ion-list>
+</ion-content>

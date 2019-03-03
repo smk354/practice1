@@ -1,0 +1,28 @@
+.ios,.md{
+    page-option{
+        .options{
+            padding : 0%;
+        }
+        ion-grid{
+            padding : 0%;
+            ion-avatar{
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+        .list1{
+            ion-note{
+                float : right;
+            }
+            margin : 0%;
+        }
+        .list2{
+            margin : 0%;
+        }
+        .list3{
+            margin : 0%;
+        }
+    }
+}
