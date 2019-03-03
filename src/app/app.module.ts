@@ -11,6 +11,8 @@ import { AngularFireModule } from 'angularfire2';
 
 import { RegisterPage } from '../pages/register/register';
 import { OnOffPage } from '../pages/on-off/on-off';
+
+import { Push } from '@ionic-native/push'
 @NgModule({
   declarations: [
     MyApp,
@@ -29,6 +31,7 @@ import { OnOffPage } from '../pages/on-off/on-off';
   providers: [
     StatusBar,
     SplashScreen,
+    Push,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
